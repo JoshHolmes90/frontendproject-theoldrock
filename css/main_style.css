@@ -1,0 +1,21 @@
+/* Global CSS - Used for the entire website */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Accessability */
+#accessibility {
+    padding: 10px;
+    text-align: right;
+}
+
+/* Header CSS */
+#header {
+    background-color: #2980b9;
+    padding: 10px;
+}
