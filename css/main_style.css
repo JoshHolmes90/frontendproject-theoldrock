@@ -1,17 +1,34 @@
+/* Fonts */
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Raleway-Regular.ttf');
+}
+
 /* Global CSS - Used for the entire website */
 html, body {
     margin: 0 !important;
     padding: 0 !important;
+    font-family: 'Raleway', sans-serif;
 }
 .container {
     max-width: 90%;
     margin: auto;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+p {
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
 }
 
 /* Accessability */
 #accessibility {
     padding: 10px;
     text-align: right;
+    font-size: 1.5em;
 }
 
 /* Header CSS */
