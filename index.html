@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
+        <!-- Setting the character set, and view port to allow the webpage to scale correctly -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- The title of the page -->
         <title>The Old Rock</title>
         
-        <!-- Include the CSS files -->
-        <link rel="stylesheet" type="text/css" href="css/main_style.css">
-        
         <!-- Including Bootstrap to allow for responsive design -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        
+        <!-- Include the CSS files -->
+        <link rel="stylesheet" type="text/css" href="css/main_style.css">
         
         <!-- Font Awesome, External CSS -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> 
@@ -18,7 +22,42 @@
     </head>
 
     <body>
+
         
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img id="header-logo" src="images/logo-white.png" alt="Old Rock Logo"/></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">News & Events</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">About The Pub</a></li>
+                                <li><a href="#">About The Function Room</a></li>
+                                <li><a href="#">Meet The Staff</a></li>
+                                <li><a href="#">Our LocAles</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Function Room</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <video loop autoplay="autoplay">
+            <source src="video/ad.mp4" type="video/mp4" />
+        </video>
        
         <div id="small-footer">
             <div class="row">
@@ -35,7 +74,7 @@
                 </div>
             </div>
         </div>
-        
+  
         <!-- Include the javascript -->
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
