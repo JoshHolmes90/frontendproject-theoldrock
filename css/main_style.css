@@ -6,6 +6,26 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
+h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.subh1heading {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: -24px;
+    margin-left: 10px;
+}
+.content-padding {
+    padding: 60px;
+}
 
 /* Override Boostrap Navbar */
 .navbar {
@@ -37,14 +57,6 @@ video {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .navbar-inverse {
-        background-color: rgba(0,0,0,0.95);
-    }
-    video {
-        margin-top: 80px;
-    }
-}
 .dropdown-menu {
     margin-top: -20px;
     background-color: rgba(0,0,0,0.6);
@@ -63,4 +75,45 @@ video {
     overflow: hidden;
     max-height: none !important;
     height: auto !important;
+}
+@media screen and (max-width: 768px) {
+    .navbar-inverse {
+        background-color: rgba(0,0,0,0.8);
+    }
+    video {
+        margin-top: 80px;
+    }
+    .dropdown-menu > li {
+        padding: 5px;
+    }
+    .navbar-nav > li {
+        padding: 5px;
+    }
+}
+/* News Content */
+#news-content {
+    margin-top: -10px;
+    background-color: #FFC107;
+    color: #ffffff;
+}
+
+/* Winner Content */
+#winner-content {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+/* FOOTER */
+#small-footer {
+    background-color: #000000;
+    padding: 20px;
+}
+#small-footer > p {
+    text-align: center;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+/* Contact Section CSS */
+.contact-padding {
+    padding: 40px;
 }
