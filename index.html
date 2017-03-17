@@ -8,7 +8,9 @@
         
         <!-- Include the CSS files -->
         <link rel="stylesheet" type="text/css" href="css/main_style.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive-grid.css">
+        
+        <!-- Including Bootstrap to allow for responsive design -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         
         <!-- Font Awesome, External CSS -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> 
@@ -17,62 +19,18 @@
 
     <body>
         
-        <div id="header">
-            <div class="row">
-                <div class="col-2">
-                    <img id="header-logo" src="./images/oldrockpink.png" alt="Header Logo"/>
-                </div>
-                <div class="col-8">
-                    Home | News & Events | Contact | Menu | Function Room Hire
-                </div>
-                <div class="col-2">
-                    <i class="fa fa-text-height pointer" aria-hidden="true" onclick="trChangeSize()"></i>
-                </div>
-            </div>
-        </div>
-        
-        
-        
-        
-        <div id="advert-box">
-            <div class="row">
-                <div class="col-6">
-                    <img class="responsive-image" src="./images/3for7.png" alt="3for7" />
-                </div>
-                <div class="col-6">
-                f
-                </div>
-            </div>
-        </div>
-        
-        <div id="footer">
-            <div class="row">
-                <div class="col-3">
-                    <img class="footer-image" src="./images/logo-white.png" alt="The Old Rock Logo"/>
-                </div>
-                <div class="col-3">
-                    <img class="footer-image" src="./images/coors.png" alt="We supply coors!"/>
-                </div>
-                <div class="col-3">
-                    <img class="footer-image" src="./images/heineken.png" alt="We supply Heineken"/>
-                </div>
-                <div class="col-3">
-                    <img class="footer-image" src="./images/camra.png" alt="Supporting Camra"/>
-                </div>
-            </div>
-        </div>
-        
+       
         <div id="small-footer">
             <div class="row">
-                <div class="col-4">
+                <div class="col-sm-4">
                     www.theoldrockstapleford.co.uk
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     <i class="fa fa-facebook" aria-hidden="true"></i> 
                     <i class="fa fa-twitter" aria-hidden="true"></i> 
                     <i class="fa fa-instagram" aria-hidden="true"></i> 
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     Home | Contact | News & Events | Jobs
                 </div>
             </div>
@@ -80,6 +38,7 @@
         
         <!-- Include the javascript -->
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/text-resizer.js"></script>
     </body> 
 
