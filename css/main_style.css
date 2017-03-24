@@ -97,12 +97,37 @@ h1 {
     .navbar-nav > li {
         padding: 5px;
     }
+    .footer-text {
+        text-align: center;
+    }
+    .footer-logo {
+        text-align: center;
+    }
 }
 /* News Content */
 #news-content {
-    margin-top: -10px;
     background-color: #FFC107;
     color: #ffffff;
+}
+/* News Article */
+.news-article {
+    border-bottom-color: #444444;
+    border-bottom-width: 3px;
+    border-bottom-style: dashed;
+    background-color: #ffffff;
+}
+.news-article-padding {
+    padding: 30px;
+}
+
+.na1 {
+    margin-top: 70px;
+}
+.na {
+    margin-top: 20px;
+}
+.img-circle {
+    border-radius: 50%;
 }
 
 /* Winner Content */
@@ -127,6 +152,9 @@ h1 {
     color: #444444;
 }
 /* FOOTER */
+#footer {
+    background-color: #ffffff;
+}
 #small-footer {
     background-color: #000000;
     padding: 20px;
@@ -136,7 +164,24 @@ h1 {
     font-size: 0.8em;
     color: #ffffff;
 }
+.footer-logo {
+    max-height: 40px;
+}
+.footer-text {
+    padding: 10px;
+    color: #ffffff;
+}
 /* Contact Section CSS */
 .contact-padding {
     padding: 40px;
+}
+/* ALE SECTION */
+#ale-content {
+    background-color: #c0392b;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+}
+.ale-pump {
+    max-height: 200px;
 }
