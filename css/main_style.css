@@ -193,3 +193,15 @@ h1 {
     height: 400px;
     width: 100%;
 }
+/* About Pages */
+.top-margin {
+    margin-top: 70px;
+}
+.opening-hours {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.ale-section {
+    padding: 20px;
+}
