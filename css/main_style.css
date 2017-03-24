@@ -2,6 +2,9 @@
 html, body {
     font-family: 'century gothic', sans-serif; 
 }
+.center-text {
+    text-align: center;
+}
 video {
   width: 100%    !important;
   height: auto   !important;
@@ -184,4 +187,9 @@ h1 {
 }
 .ale-pump {
     max-height: 200px;
+}
+/* Google Map */
+#googleMap {
+    height: 400px;
+    width: 100%;
 }

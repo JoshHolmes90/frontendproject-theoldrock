@@ -49,7 +49,7 @@
                             </ul>
                         </li>
                         <li><a href="#">Function Room</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -171,6 +171,7 @@
             </div>
         </div>
         
+        <a name="contact"></a>
         <div id="footer">
             <div class="container">
                 <div class="row">
@@ -178,33 +179,7 @@
                         <h1>Speak up!</h1>
                         <h1 class="subh1heading">Send us a message</h1>
                         <p>Whether you want to recieve information, book an event, give feedback or just say hello we welcome all messages, find our details below.</p>
-                        <br/><br/>
-                        <table width="100%">
-                            <tr>
-                                <td width="15%" style="text-align: center;">
-                                    <p><i class="fa fa-globe fa-2x" aria-hidden="true"></i></p>
-                                </td>
-                                <td width="85%">
-                                    <p><a href="http://www.oldrockstapleford.co.uk">www.theoldrockstapleford.co.uk</a></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="15%" style="text-align: center;">
-                                    <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></p>
-                                </td>
-                                <td width="85%">
-                                    <p><a href="mailto:contact@theoldrockstapleford.co.uk">contact@theoldrockstapleford.co.uk</a></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="15%" style="text-align: center;">
-                                    <p><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></p>
-                                </td>
-                                <td width="85%">
-                                    <p>1-3 Nottingham Road, Stapleford, NG9 8AB</p>
-                                </td>
-                            </tr>
-                        </table>
+                        <div id="googleMap"></div>
                     </div>
                     <div class="col-sm-6 contact-padding">
                         <form>
@@ -216,6 +191,17 @@
                             <textarea rows="10"class="form-control" ></textarea><br/>
                             <button class="btn btn-primary form-control">Send Message</button>
                         </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p><a href="http://www.oldrockstapleford.co.uk">www.theoldrockstapleford.co.uk</a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p><a href="mailto:contact@theoldrockstapleford.co.uk">contact@theoldrockstapleford.co.uk</a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>1-3 Nottingham Road, Stapleford, NG9 8AB</p>
                     </div>
                 </div>
             </div>
@@ -246,6 +232,8 @@
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/text-resizer.js"></script>
+        <script type="text/javascript" src="js/googlemap.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3BAxU37G9WBNOuUuzoHCYfNbeA-YztAw&callback=gmInitMap" type="text/javascript"></script>
     </body> 
 
 </html> 
